@@ -5,7 +5,7 @@ use App\Models\Place;
 use App\Models\users;
 
 use App\Models\Placeimg;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 use Illuminate\Http\Request;
 

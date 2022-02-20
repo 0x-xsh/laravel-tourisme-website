@@ -31,7 +31,7 @@
             <div class="places-card-list">
             @foreach ($places as $place)
                     <div class="card">
-                    <img src="{{asset('../places/'. $place->thumpnail)}}" alt="Place image" class="card-img">
+                    <img src="{{asset('../places/'. $place->thumbnail)}}" alt="Place image" class="card-img">
                     <div class="card-content">
                         
                         <h1 class="card-title">
@@ -49,7 +49,7 @@
             <div class="activities-card-list">
             @foreach ($activities as $activity)
                 <div class="card">
-                    <img src="{{asset('../activities/'. $activity->thumpnail)}}" alt="Activity image" class="card-img">
+                    <img src="{{asset('../activities/'. $activity->thumbnail)}}" alt="Activity image" class="card-img">
                     <div class="card-content">    
                         <h1 class="card-title">
                             {{$activity->name}} 
